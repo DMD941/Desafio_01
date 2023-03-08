@@ -1,18 +1,18 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/24/2022 10:35:57 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-3U20PBM"
   DTS:CreatorName="DESKTOP-3U20PBM\B"
-  DTS:DTSID="{35B1385A-5DA0-432B-BBBD-DB446C738B34}"
+  DTS:DTSID="{E25E290A-6F37-4B0E-8CCD-CAB192783EDE}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.170"
   DTS:LocaleID="2058"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="SpaDiego"
   DTS:PackageType="5"
-  DTS:VersionBuild="23"
-  DTS:VersionGUID="{5667EA1E-78C4-48CB-8925-F76207B24F68}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{224019C6-A30C-4F1B-B377-A8FAED3DFB48}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{C731B7A1-220A-41D8-94A9-316BC631F476}"
+              DTS:DTSID="{6DCDCBE3-FDC2-432A-BBC6-AF3A12928C9B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{528F2B6D-C253-49DF-BBE9-56739A38C221}"
+              DTS:DTSID="{E204CDD7-DE6A-4150-BD98-DCBE283C9C7D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{8DB3F723-BC1C-4E94-B76D-0ADE6ABB718B}"
+              DTS:DTSID="{F7F105FB-0F93-4B41-AC64-A10F5D9E4B38}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{B9690585-6FA6-4306-93B0-2E89630E4DE1}"
+              DTS:DTSID="{7625CA83-820B-4B43-AFB8-518BF16E7A2C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{D078996F-CE1F-4E51-A0B7-8CC8DEA7AC1D}"
+              DTS:DTSID="{3FFE0A76-7E93-43D5-9484-D42D0CECC2F5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{AB4E06F8-7E8A-4955-B224-794242865BAC}"
+              DTS:DTSID="{3B0B99CD-7802-4C31-93A4-22D25FC9D794}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{71524EBE-9488-4DB3-9FE0-3D472549D3AD}"
+              DTS:DTSID="{9B4E8D55-8941-425A-A578-7C8FD8632017}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{94107D3E-EC5F-4E79-BAB6-C3DD3636FF90}"
+              DTS:DTSID="{D29F6FD3-E9EA-45C6-973C-291338C3F293}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{64E508AC-7D60-4C4C-B898-2F6ADC80090D}"
+              DTS:DTSID="{5B9374EC-6944-4668-80E0-F35B19DE81E4}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>

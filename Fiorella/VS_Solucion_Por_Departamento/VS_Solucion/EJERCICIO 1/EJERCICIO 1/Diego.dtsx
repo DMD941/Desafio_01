@@ -5,22 +5,22 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-3U20PBM"
   DTS:CreatorName="DESKTOP-3U20PBM\B"
-  DTS:DTSID="{35B1385A-5DA0-432B-BBBD-DB446C738B34}"
+  DTS:DTSID="{56AAF23E-7DBA-4DA9-87B1-9694CA4E1E68}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.170"
   DTS:LocaleID="2058"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="Diego"
   DTS:PackageType="5"
   DTS:VersionBuild="20"
-  DTS:VersionGUID="{7E1E191B-7ADC-48B8-A9F3-B443791DA69F}">
+  DTS:VersionGUID="{76F705CD-C47E-40F1-A74C-273BA2151B3B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[CENTRO]"
+      DTS:refId="Package.ConnectionManagers[Centro]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{139E0E49-A0EF-43A8-9F06-8D53A6560380}"
-      DTS:ObjectName="CENTRO">
+      DTS:ObjectName="Centro">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{6D3DA50E-7E54-4DF4-BD09-655392EFFB3B}"
+              DTS:DTSID="{261A79EE-7598-496A-AF0D-303ACAAE4BB2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{A508358B-F6BC-42B8-97BC-ABB1B3DDC8F7}"
+              DTS:DTSID="{622A75C1-3BD0-490D-A016-89500D1A93F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{569CFD15-F9B6-4F3C-99A0-64D5FBD92C75}"
+              DTS:DTSID="{E07215DC-3F01-47F7-8EB6-4D8DB15A2143}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{5330341D-3D41-426B-A90E-C76499D80D30}"
+              DTS:DTSID="{5D1F2AE6-6367-4316-906F-691E75033BEF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{7ADEEF0A-D949-49C3-9E01-D4DDED724035}"
+              DTS:DTSID="{BA42A3E1-7D3D-41D1-84A7-9514722FF990}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{DF142942-8029-40CA-864F-2E91A93EC149}"
+              DTS:DTSID="{510EEBFC-0E87-43E2-9EC8-2225D2AA095D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{922ACB1B-71F8-4A31-815B-6D2F8E743A10}"
+              DTS:DTSID="{970D354A-29C9-4B86-AB9A-B204F1A63FD2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{8594C039-74E0-4BFF-B1CA-01AF7CF154DB}"
+              DTS:DTSID="{5EA0996A-975D-4A95-88BB-5A4DB72695EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{08EFE84A-F957-4970-BD6F-6380D4A6DF31}"
+              DTS:DTSID="{D70596C4-281B-43C8-B1DF-B7995FBFD1F4}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -120,7 +120,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-VD039RD.EJERCICIO1]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{24500881-0ED6-4F0C-8C5F-C9EAAE8E4B33}"
+      DTS:DTSID="{801C29C7-A5BD-49DB-A18C-D4E90C8F15A5}"
       DTS:ObjectName="DESKTOP-VD039RD.EJERCICIO1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -138,14 +138,14 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-VD039RD;Initial Catalog=EJERCICIO1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1;" />
+          DTS:ConnectionString="Data Source=DESKTOP-VD039RD\;Initial Catalog=EJERCICIO1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[ESCALON]"
+      DTS:refId="Package.ConnectionManagers[Escalon]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{10F9C06A-F888-42ED-A6E6-A5A799C2D2FF}"
-      DTS:ObjectName="ESCALON">
+      DTS:ObjectName="Escalon">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -164,7 +164,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{816E2480-F4C7-4BC4-B284-B390E410D69C}"
+              DTS:DTSID="{0467DA54-1836-470E-AAE5-32A7077A6770}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -173,7 +173,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{F09BB3C9-D74E-4BE3-A6CC-6CDF6AB1ED43}"
+              DTS:DTSID="{F11E7AB2-450B-48BA-8805-C990D04915A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -182,7 +182,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{18E189FF-81A8-4CB8-A60C-F5EFA6A2592D}"
+              DTS:DTSID="{4A4D1688-F623-4CF7-9E7A-9730A69A908A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -191,7 +191,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{D00BBCCF-A1A6-46AE-B339-661D54129B71}"
+              DTS:DTSID="{96D47208-AD55-4CA5-B76A-FB5D60CA25CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,7 +200,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{99998120-71A3-42A9-B960-0869FDA44EC4}"
+              DTS:DTSID="{657B3D76-A701-4857-8682-43FFF2F94D7C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -209,7 +209,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{DBDE68C3-9738-4F34-8BE1-F9ABA863E8EA}"
+              DTS:DTSID="{7101272C-FA40-4B32-8B34-4FEBCA41D17A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -218,7 +218,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{BC53CC29-78F8-4E54-9988-05031F6280F0}"
+              DTS:DTSID="{7C8950CD-7A75-4866-884B-753ED14C5438}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -227,7 +227,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{83E58BCE-623B-4CE0-9A43-EC3E3C35A938}"
+              DTS:DTSID="{02CBF9CF-11C2-4706-BF68-6C051AB101DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -236,7 +236,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{83F36980-F7EC-4C04-BD19-0479AFD957CC}"
+              DTS:DTSID="{C2981F05-41F4-4E77-B693-537867AB98A8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -265,7 +265,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{7C172EF1-F56E-45F0-B36F-0A8489FD99C9}"
+              DTS:DTSID="{9BE2DD39-FFAB-4E54-AEA3-2715DDF1C1EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -274,7 +274,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{D1563A93-5A1B-47AA-8E4E-EF1F8C4DE56D}"
+              DTS:DTSID="{9581E82A-AD44-4A0B-AE91-ACD9E931AB36}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -283,7 +283,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{05EDCDB8-5658-484A-A057-5C5157A964FB}"
+              DTS:DTSID="{10D6937A-36B5-4520-BE68-99E864C2BE70}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -292,7 +292,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{1AFC0FE9-5C43-4160-8DF2-A5E0FD758EB9}"
+              DTS:DTSID="{C4D7BA4F-8697-448C-B3DD-A6785C63C663}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -301,7 +301,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{19DCF175-6220-468C-BF83-3FFF80D27C2B}"
+              DTS:DTSID="{F2048BC1-9460-40C3-92C7-D7E2362B32A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -310,7 +310,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{BAEAFB6E-AB38-4070-8C43-284F63981738}"
+              DTS:DTSID="{8641CD9B-4470-4E96-9AAB-5232F08967B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -319,7 +319,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{BC6263B8-6492-440E-9269-8A00F97113FD}"
+              DTS:DTSID="{DFE8D767-3903-4E98-8755-3E6D369A296E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -328,7 +328,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{46697E7C-7162-4A92-81CF-5B2672D1614E}"
+              DTS:DTSID="{B026C19F-19B3-4A89-83F5-F888FB9D3E77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -337,7 +337,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{A77D26E4-6C90-4B7F-BFEC-96DFB1715381}"
+              DTS:DTSID="{940B0909-082D-4A43-8617-CDE062E2CF27}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -381,8 +381,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\CENTRO.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[CENTRO]"
-                  connectionManagerRefId="Package.ConnectionManagers[CENTRO]"
+                  connectionManagerID="Package.ConnectionManagers[Centro]"
+                  connectionManagerRefId="Package.ConnectionManagers[Centro]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -913,8 +913,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\ESCALON.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[ESCALON]"
-                  connectionManagerRefId="Package.ConnectionManagers[ESCALON]"
+                  connectionManagerID="Package.ConnectionManagers[Escalon]"
+                  connectionManagerRefId="Package.ConnectionManagers[Escalon]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -2113,7 +2113,7 @@
         <NodeLayout
           Size="119,42"
           Id="Package\Data Flow Task\CENTRO"
-          TopLeft="95.5,201.5" />
+          TopLeft="96.5,200.5" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Union All Output 1]"
           TopLeft="349.5,121.5">
@@ -2150,30 +2150,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
-          TopLeft="155,201.5">
+          TopLeft="156,200.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="170,-38"
+              EndConnector="169,-37"
               Start="0,0"
-              End="170,-30.5">
+              End="169,-29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-20.7116564417178" />
+                    End="0,-20.0613496932515" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-20.7116564417178"
-                    Point2="0,-24.7116564417178"
-                    Point3="4,-24.7116564417178" />
+                    Point1="0,-20.0613496932515"
+                    Point2="0,-24.0613496932515"
+                    Point3="4,-24.0613496932515" />
                   <mssgle:LineSegment
-                    End="166,-24.7116564417178" />
+                    End="165,-24.0613496932515" />
                   <mssgle:CubicBezierSegment
-                    Point1="166,-24.7116564417178"
-                    Point2="170,-24.7116564417178"
-                    Point3="170,-28.7116564417178" />
+                    Point1="165,-24.0613496932515"
+                    Point2="169,-24.0613496932515"
+                    Point3="169,-28.0613496932515" />
                   <mssgle:LineSegment
-                    End="170,-30.5" />
+                    End="169,-29.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

@@ -26,33 +26,33 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-3U20PBM</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANfj9607/WUGAnsayxeoDjwAAAAACAAAAAAAQZgAAAAEAACAAAADWVa+QhI+7xHI+nga6SB/zCCJkStEm7FdpQPKbjcCGnAAAAAAOgAAAAAIAACAAAABMHi+ZLdsk8TlX9gP8u2XFZerP0bA+YoFb3Jjh4KAThZAAAABor5u5QakCCRQ0ObQt8ehvdxZFew8EDWR549LqUeE175NyoVAqylLfpcjMzSBsLrfHQLfLZ7E+o2fDql4K8fBwKlcE7P0M+pI6tmJvPOmNWcMm5vKq3UFtK8fdVeQNSKTX9sD3LydSTMX7hVWIJSCtO+/Vi2H++MHCHtCZD4OnQLhp266y5Fp+XdxPWA/ne6RAAAAAU2IMqLP+4HzIlbG3HGw0RhRbdeNiTiD7Y4KasG3UEtV+2CXGgjJ1KWOUXH3dU+lct26V6Oqhj8CDJbZ80aBEoA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANfj9607/WUGAnsayxeoDjwAAAAACAAAAAAAQZgAAAAEAACAAAADvUuqr8HFApMiZmpPxgkWgqnJ71TBl1u3y8+Uf7jqB/QAAAAAOgAAAAAIAACAAAADUKCPQLnqChgZfVSXYRLvEcRZyWUCP80j3Q+WKCS43hZAAAABCBHmUgUQwO6NVHmBranobnqT/Scf6OcX1JTH/p6UVxqOH+3H6+H/UJZ6GC9opMxAYOL4YTferFQ0g0bAv0JWdm50Ark+QEDxrlk9tmG8LKeBR0prLfdZXXN/DMwlbGfyYNv1Lo3aAHrqir9+lEnmdPYZnIQq6CFvH2bogrTt3GNAtdFemc8tSL70DeK+RizJAAAAAjKlHTA0imnP8FBL1Ss9/KvrujchYLE/LXZFqO3cSogQkp+FZA7YjQ8kwvDN0m/bRnpvp3fNi38RvyVdGLB6/eA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="SpaDiego.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="SpaDiego.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Package1.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{E25E290A-6F37-4B0E-8CCD-CAB192783EDE}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">SpaDiego</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{35B1385A-5DA0-432B-BBBD-DB446C738B34}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">25</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">18</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{224019C6-A30C-4F1B-B377-A8FAED3DFB48}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6FB3C771-6FA5-4373-82AE-C988C99D9372}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.AlwaysCheckForRowDelimiters">
+                <SSIS:Parameter SSIS:Name="CM.Centro.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -67,7 +67,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.CodePage">
+                <SSIS:Parameter SSIS:Name="CM.Centro.CodePage">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -82,7 +82,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.ColumnNamesInFirstDataRow">
+                <SSIS:Parameter SSIS:Name="CM.Centro.ColumnNamesInFirstDataRow">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -97,7 +97,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.Centro.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -112,7 +112,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Centro.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -123,11 +123,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\DMD941\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaCentro_m20191007.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Roberto\Desktop\Tarea\GitHub\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaCentro_m20191007.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.DataRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Centro.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -142,7 +142,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.Format">
+                <SSIS:Parameter SSIS:Name="CM.Centro.Format">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -157,7 +157,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.HeaderRowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Centro.HeaderRowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -173,7 +173,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.HeaderRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Centro.HeaderRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -188,7 +188,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.LocaleID">
+                <SSIS:Parameter SSIS:Name="CM.Centro.LocaleID">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -203,7 +203,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.RowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Centro.RowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -219,7 +219,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.TextQualifier">
+                <SSIS:Parameter SSIS:Name="CM.Centro.TextQualifier">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -234,7 +234,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.CENTRO.Unicode">
+                <SSIS:Parameter SSIS:Name="CM.Centro.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -249,7 +249,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -264,7 +264,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -275,11 +275,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-VD039RD;Initial Catalog=EJERCICIO1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-VD039RD\;Initial Catalog=EJERCICIO1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -294,7 +294,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -309,7 +309,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -324,7 +324,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -339,7 +339,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.Password">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -353,7 +353,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -368,7 +368,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -379,11 +379,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DESKTOP-VD039RD</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">DESKTOP-VD039RD\</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DESAFIO1.EJERCICIO1.UserName">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -397,7 +397,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -412,7 +412,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -427,7 +427,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -442,7 +442,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -457,7 +457,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -472,7 +472,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -487,7 +487,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.Password">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -501,7 +501,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -516,7 +516,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -531,7 +531,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.EJERCICIO1.SPADIEGO.UserName">
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-VD039RD.EJERCICIO1.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -545,7 +545,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.AlwaysCheckForRowDelimiters">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -560,7 +560,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.CodePage">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.CodePage">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -575,7 +575,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.ColumnNamesInFirstDataRow">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.ColumnNamesInFirstDataRow">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -590,7 +590,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -605,7 +605,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -616,11 +616,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\DMD941\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaEscalon_i20191007.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Roberto\Desktop\Tarea\GitHub\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaEscalon_i20191007.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.DataRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -635,7 +635,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.Format">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.Format">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -650,7 +650,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.HeaderRowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.HeaderRowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -665,7 +665,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.HeaderRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.HeaderRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -680,7 +680,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.LocaleID">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.LocaleID">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -695,7 +695,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.RowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.RowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -711,7 +711,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.TextQualifier">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.TextQualifier">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -726,7 +726,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.ESCALON.Unicode">
+                <SSIS:Parameter SSIS:Name="CM.Escalon.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -812,7 +812,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\DMD941\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaSantaTecla_m20191007.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Roberto\Desktop\Tarea\GitHub\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaSantaTecla_m20191007.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

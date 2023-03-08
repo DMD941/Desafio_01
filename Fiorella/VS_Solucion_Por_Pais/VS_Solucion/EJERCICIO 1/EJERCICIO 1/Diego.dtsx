@@ -1,26 +1,26 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/24/2022 10:35:57 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-3U20PBM"
   DTS:CreatorName="DESKTOP-3U20PBM\B"
-  DTS:DTSID="{35B1385A-5DA0-432B-BBBD-DB446C738B34}"
+  DTS:DTSID="{56AAF23E-7DBA-4DA9-87B1-9694CA4E1E68}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.170"
   DTS:LocaleID="2058"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="Diego"
   DTS:PackageType="5"
-  DTS:VersionBuild="23"
-  DTS:VersionGUID="{5667EA1E-78C4-48CB-8925-F76207B24F68}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{76F705CD-C47E-40F1-A74C-273BA2151B3B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[CENTRO]"
+      DTS:refId="Package.ConnectionManagers[Centro]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{139E0E49-A0EF-43A8-9F06-8D53A6560380}"
-      DTS:ObjectName="CENTRO">
+      DTS:ObjectName="Centro">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\DMD941\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaCentro_m20191007.csv">
+          DTS:ConnectionString="C:\Users\Roberto\Desktop\Tarea\GitHub\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaCentro_m20191007.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{C731B7A1-220A-41D8-94A9-316BC631F476}"
+              DTS:DTSID="{261A79EE-7598-496A-AF0D-303ACAAE4BB2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{528F2B6D-C253-49DF-BBE9-56739A38C221}"
+              DTS:DTSID="{622A75C1-3BD0-490D-A016-89500D1A93F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{8DB3F723-BC1C-4E94-B76D-0ADE6ABB718B}"
+              DTS:DTSID="{E07215DC-3F01-47F7-8EB6-4D8DB15A2143}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{B9690585-6FA6-4306-93B0-2E89630E4DE1}"
+              DTS:DTSID="{5D1F2AE6-6367-4316-906F-691E75033BEF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{D078996F-CE1F-4E51-A0B7-8CC8DEA7AC1D}"
+              DTS:DTSID="{BA42A3E1-7D3D-41D1-84A7-9514722FF990}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{AB4E06F8-7E8A-4955-B224-794242865BAC}"
+              DTS:DTSID="{510EEBFC-0E87-43E2-9EC8-2225D2AA095D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{71524EBE-9488-4DB3-9FE0-3D472549D3AD}"
+              DTS:DTSID="{970D354A-29C9-4B86-AB9A-B204F1A63FD2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{94107D3E-EC5F-4E79-BAB6-C3DD3636FF90}"
+              DTS:DTSID="{5EA0996A-975D-4A95-88BB-5A4DB72695EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,29 +111,17 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{64E508AC-7D60-4C4C-B898-2F6ADC80090D}"
+              DTS:DTSID="{D70596C4-281B-43C8-B1DF-B7995FBFD1F4}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESAFIO1.EJERCICIO1]"
+      DTS:refId="Package.ConnectionManagers[DESKTOP-VD039RD.EJERCICIO1]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}"
-      DTS:ObjectName="DESAFIO1.EJERCICIO1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-VD039RD;Initial Catalog=EJERCICIO1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[EJERCICIO1.SPADIEGO]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{24500881-0ED6-4F0C-8C5F-C9EAAE8E4B33}"
-      DTS:ObjectName="EJERCICIO1.SPADIEGO">
+      DTS:DTSID="{801C29C7-A5BD-49DB-A18C-D4E90C8F15A5}"
+      DTS:ObjectName="DESKTOP-VD039RD.EJERCICIO1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
@@ -142,10 +130,22 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[ESCALON]"
+      DTS:refId="Package.ConnectionManagers[DESKTOP-VD039RD\DESAFIO1.EJERCICIO1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}"
+      DTS:ObjectName="DESKTOP-VD039RD\DESAFIO1.EJERCICIO1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-VD039RD\;Initial Catalog=EJERCICIO1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{24B54EB2-6FCF-48E1-8E71-BDAAE94F4121}DESKTOP-3U20PBM\DESAFIO1.EJERCICIO1;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Escalon]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{10F9C06A-F888-42ED-A6E6-A5A799C2D2FF}"
-      DTS:ObjectName="ESCALON">
+      DTS:ObjectName="Escalon">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -155,7 +155,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\DMD941\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaEscalon_i20191007.csv">
+          DTS:ConnectionString="C:\Users\Roberto\Desktop\Tarea\GitHub\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaEscalon_i20191007.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -164,7 +164,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{01EE71D5-7917-4609-83CB-32CBBCDC7975}"
+              DTS:DTSID="{0467DA54-1836-470E-AAE5-32A7077A6770}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -173,7 +173,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{E98926C2-41A6-4814-961F-14E7936B752C}"
+              DTS:DTSID="{F11E7AB2-450B-48BA-8805-C990D04915A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -182,7 +182,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{65A09DF5-B252-42B6-BEB1-78B8BB637F63}"
+              DTS:DTSID="{4A4D1688-F623-4CF7-9E7A-9730A69A908A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -191,7 +191,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{16383DDE-6279-43A9-BA87-E16620500311}"
+              DTS:DTSID="{96D47208-AD55-4CA5-B76A-FB5D60CA25CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,7 +200,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{B6172B78-75E2-4B90-B927-20C887657009}"
+              DTS:DTSID="{657B3D76-A701-4857-8682-43FFF2F94D7C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -209,7 +209,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{80BE6CE4-0281-4FE7-9474-36BF5FF36BD4}"
+              DTS:DTSID="{7101272C-FA40-4B32-8B34-4FEBCA41D17A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -218,7 +218,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{83182815-3674-4D32-ADBA-8B960EB47650}"
+              DTS:DTSID="{7C8950CD-7A75-4866-884B-753ED14C5438}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -227,7 +227,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{893AF333-5BE1-4B54-ABA4-40751A83AED1}"
+              DTS:DTSID="{02CBF9CF-11C2-4706-BF68-6C051AB101DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -236,7 +236,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{4BFFAFF9-B311-4F50-9F54-94624C094B13}"
+              DTS:DTSID="{C2981F05-41F4-4E77-B693-537867AB98A8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -256,7 +256,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\DMD941\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaSantaTecla_m20191007.csv">
+          DTS:ConnectionString="C:\Users\Roberto\Desktop\Tarea\GitHub\Desafio_01\Diego\Archivos_Provistos_Catedratico\SpaSantaTecla_m20191007.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -265,7 +265,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{9A5A3F96-4E08-4F81-9ED7-FF40D842F010}"
+              DTS:DTSID="{9BE2DD39-FFAB-4E54-AEA3-2715DDF1C1EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -274,7 +274,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexo"
-              DTS:DTSID="{B101526D-6B37-4881-A553-524259B07455}"
+              DTS:DTSID="{9581E82A-AD44-4A0B-AE91-ACD9E931AB36}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -283,7 +283,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ingresos"
-              DTS:DTSID="{839CB119-0673-49D4-8AD4-3B2FCB1E955C}"
+              DTS:DTSID="{10D6937A-36B5-4520-BE68-99E864C2BE70}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -292,7 +292,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromVisit"
-              DTS:DTSID="{E91F8C02-06A3-41C2-BD47-5A1C05593688}"
+              DTS:DTSID="{C4D7BA4F-8697-448C-B3DD-A6785C63C663}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -301,7 +301,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Edad"
-              DTS:DTSID="{A2820378-386B-4359-A59F-56ED690DB470}"
+              DTS:DTSID="{F2048BC1-9460-40C3-92C7-D7E2362B32A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -310,7 +310,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sauna"
-              DTS:DTSID="{41807DB6-2C0E-4D56-88CA-F95D4D8A268C}"
+              DTS:DTSID="{8641CD9B-4470-4E96-9AAB-5232F08967B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -319,7 +319,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Masaje"
-              DTS:DTSID="{0DD6DD6E-695F-4EB5-B6A9-563E6A070E6A}"
+              DTS:DTSID="{DFE8D767-3903-4E98-8755-3E6D369A296E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -328,7 +328,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Hidro"
-              DTS:DTSID="{C1432EFA-D74C-4A3C-9350-5944EED0A0D9}"
+              DTS:DTSID="{B026C19F-19B3-4A89-83F5-F888FB9D3E77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -337,7 +337,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Yoga"
-              DTS:DTSID="{51A781E2-C202-4F3F-9B8E-8A41B76289C3}"
+              DTS:DTSID="{940B0909-082D-4A43-8617-CDE062E2CF27}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -381,8 +381,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\CENTRO.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[CENTRO]"
-                  connectionManagerRefId="Package.ConnectionManagers[CENTRO]"
+                  connectionManagerID="Package.ConnectionManagers[Centro]"
+                  connectionManagerRefId="Package.ConnectionManagers[Centro]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -735,8 +735,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Destino.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EJERCICIO1.SPADIEGO]"
-                  connectionManagerRefId="Package.ConnectionManagers[EJERCICIO1.SPADIEGO]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-VD039RD.EJERCICIO1]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-VD039RD.EJERCICIO1]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -913,8 +913,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\ESCALON.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[ESCALON]"
-                  connectionManagerRefId="Package.ConnectionManagers[ESCALON]"
+                  connectionManagerID="Package.ConnectionManagers[Escalon]"
+                  connectionManagerRefId="Package.ConnectionManagers[Escalon]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -2101,33 +2101,45 @@
         <NodeLayout
           Size="124,42"
           Id="Package\Data Flow Task\ESCALON"
-          TopLeft="286.5,215.5" />
+          TopLeft="301.5,259.5" />
         <NodeLayout
           Size="114,42"
           Id="Package\Data Flow Task\Destino"
-          TopLeft="288,27" />
+          TopLeft="268,32" />
         <NodeLayout
           Size="145,42"
           Id="Package\Data Flow Task\SANTA TECLA"
-          TopLeft="469.5,212.5" />
+          TopLeft="480.5,211.5" />
         <NodeLayout
           Size="119,42"
           Id="Package\Data Flow Task\CENTRO"
-          TopLeft="100.5,212.5" />
+          TopLeft="96.5,200.5" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Union All Output 1]"
-          TopLeft="347.25,121.5">
+          TopLeft="349.5,121.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-52.5"
+              EndConnector="-24.5,-47.5"
               Start="0,0"
-              End="0,-45">
+              End="-24.5,-40">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-45" />
+                    End="0,-19.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-19.75"
+                    Point2="0,-23.75"
+                    Point3="-4,-23.75" />
+                  <mssgle:LineSegment
+                    End="-20.5,-23.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-20.5,-23.75"
+                    Point2="-24.5,-23.75"
+                    Point3="-24.5,-27.75" />
+                  <mssgle:LineSegment
+                    End="-24.5,-40" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2138,30 +2150,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
-          TopLeft="160,212.5">
+          TopLeft="156,200.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="165,-49"
+              EndConnector="169,-37"
               Start="0,0"
-              End="165,-41.5">
+              End="169,-29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-27.8650306748466" />
+                    End="0,-20.0613496932515" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-27.8650306748466"
-                    Point2="0,-31.8650306748466"
-                    Point3="4,-31.8650306748466" />
+                    Point1="0,-20.0613496932515"
+                    Point2="0,-24.0613496932515"
+                    Point3="4,-24.0613496932515" />
                   <mssgle:LineSegment
-                    End="161,-31.8650306748466" />
+                    End="165,-24.0613496932515" />
                   <mssgle:CubicBezierSegment
-                    Point1="161,-31.8650306748466"
-                    Point2="165,-31.8650306748466"
-                    Point3="165,-35.8650306748466" />
+                    Point1="165,-24.0613496932515"
+                    Point2="169,-24.0613496932515"
+                    Point3="169,-28.0613496932515" />
                   <mssgle:LineSegment
-                    End="165,-41.5" />
+                    End="169,-29.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2172,30 +2184,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="542,212.5">
+          TopLeft="553,211.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-168,-49"
+              EndConnector="-179,-48"
               Start="0,0"
-              End="-168,-41.5">
+              End="-179,-40.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-27.8650306748466" />
+                    End="0,-27.2147239263804" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-27.8650306748466"
-                    Point2="0,-31.8650306748466"
-                    Point3="-4,-31.8650306748466" />
+                    Point1="0,-27.2147239263804"
+                    Point2="0,-31.2147239263804"
+                    Point3="-4,-31.2147239263804" />
                   <mssgle:LineSegment
-                    End="-164,-31.8650306748466" />
+                    End="-175,-31.2147239263804" />
                   <mssgle:CubicBezierSegment
-                    Point1="-164,-31.8650306748466"
-                    Point2="-168,-31.8650306748466"
-                    Point3="-168,-35.8650306748466" />
+                    Point1="-175,-31.2147239263804"
+                    Point2="-179,-31.2147239263804"
+                    Point3="-179,-35.2147239263804" />
                   <mssgle:LineSegment
-                    End="-168,-41.5" />
+                    End="-179,-40.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2206,18 +2218,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="349,215.5">
+          TopLeft="363.5,259.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-52"
+              EndConnector="-14,-96"
               Start="0,0"
-              End="0,-44.5">
+              End="-14,-88.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-44.5" />
+                    End="0,-44" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-44"
+                    Point2="0,-48"
+                    Point3="-4,-48" />
+                  <mssgle:LineSegment
+                    End="-10,-48" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-10,-48"
+                    Point2="-14,-48"
+                    Point3="-14,-52" />
+                  <mssgle:LineSegment
+                    End="-14,-88.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
